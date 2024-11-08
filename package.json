@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "sleep baby tracker",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Svetlana Zinovkina",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/i18n": "^1.1.2",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.31.0",
+    "knex": "^3.1.0",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.1",
+    "telegram-inline-calendar": "^2.2.0"
+  },
+  "devDependencies": {
+    "@grammyjs/types": "^3.15.0",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^22.9.0",
+    "telegram-inline-calendar-types": "^1.0.1",
+    "typescript": "^5.6.3"
+  }
+}
